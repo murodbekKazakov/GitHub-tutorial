@@ -5,6 +5,10 @@
     list-style:none;
     text-decoration: none;
 }
+body{
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),  url(./bg.jpg);
+    background-size: cover;
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -38,4 +42,25 @@ header nav ul li a:hover{
     border:2px solid rgb(107, 91, 2);
     border-radius: 8px;
     background:none;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+}
+section h1{
+    font-size:64px;
+    background-color:#ccc;
+    border: 1px solid #000;
+    margin-bottom: 10px;
+}
+section p{
+    font-size:24px;
+    background-color:#ccc;
+}
+footer p{
+    background-color:#ccc;
 }
