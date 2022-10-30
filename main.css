@@ -6,7 +6,7 @@
     text-decoration: none;
 }
 body{
-    background:linear-gradient(rgb(112, 112, 116), rgb(112, 112, 116)),  url(./bg.jpg);
+    background:linear-gradient(rgb(112, 112, 116,0.6), rgb(112, 112, 116,0.7)),  url(./bg.jpg);
     background-size: cover;
 }
 header{
